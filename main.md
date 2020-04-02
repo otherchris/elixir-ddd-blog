@@ -46,8 +46,18 @@ being acted upon.
 
 ### A Functional Alternative
 - Create a type for the aggregate
-- Create
+- Spread the domain logic over multiple modules, just bags of functions!
+- Use language features like `@behaviour` to enforce your design
+- Use tools like `dialyzer` to strengthen your types
+- We use our high level description to drive our design
+- The server stands in for the controller
+
 ### Things to notice
+- All the same decoupling
+- Stateless domain logic
+- Persist state in an isolated process
+-
+
 
 
 
