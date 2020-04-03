@@ -1,4 +1,6 @@
 ## OO vs. FP
+I want to be clear that this is not another OO vs. FP post. A fun way to make
+yourself miserable is to google "OO vs FP" and start reading.
 - Overly academic
 - Different ways of expressing a system, not correct or incorrect
 - Have different advantages and disadvantages
@@ -14,6 +16,7 @@
 ## The bias
 - Eliminate concerns of state from your domain logic
 - The "good stuff" about classes is that they are _types_.
+- We'd like to be able to use the Actor model for concurrency
 
 ## The translation
 - Where you have a class in OO, you have a type in FP
@@ -56,7 +59,6 @@ being acted upon.
 - All the same decoupling
 - Stateless domain logic
 - Persist state in an isolated process
--
 
 
 
