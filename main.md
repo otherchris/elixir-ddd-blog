@@ -1,6 +1,27 @@
 ## OO vs. FP
 I want to be clear that this is not another OO vs. FP post. A fun way to make
-yourself miserable is to google "OO vs FP" and start reading.
+yourself miserable is to google "OO vs FP" and start reading. Many, many words
+spilt to say "IT DEPENDS".
+
+The central misunderstanding of that conversation is that people are likely to
+make a decision of functional or object oriented and then proceed to choose
+languages, tools and design patterns relative to that decision.
+
+I think its much more likely that this dependency is inverted. People choose
+language ecosystems (or have that choice made for them) and retroactively
+justify the paradigm that the ecosystem facilitates. I don't think this is
+necessarily a bad idea, those types of choices are often made with important
+considerations in mind.
+
+What are the implicit assumptions behind those considerations though? Are they
+valid?
+
+I have a guess that there is an implicit assumption that leads a lot of large
+enterprise software into the oo camp. That is that a clean, domain driven
+architecture is most naturally expressed using class and objects.
+
+
+
 - Overly academic
 - Different ways of expressing a system, not correct or incorrect
 - Have different advantages and disadvantages
